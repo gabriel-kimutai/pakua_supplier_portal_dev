@@ -1,0 +1,12 @@
+services:
+  pakua_supplier_portal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: "${VITE_API_URL}"
+    container_name: pakua_supplier_portal
+    restart: unless-stopped
+    ports:
+      - "${PORT}:${PORT}"
+
