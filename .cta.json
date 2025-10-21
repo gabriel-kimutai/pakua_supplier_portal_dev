@@ -1,0 +1,18 @@
+{
+  "projectName": "supplier-portal",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "npm",
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "form",
+    "sentry",
+    "shadcn",
+    "start",
+    "table",
+    "tanstack-query"
+  ]
+}
