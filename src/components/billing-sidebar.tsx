@@ -34,12 +34,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
             <div className="flex justify-center gap-2 md:justify-start">
               <a href="#" className="flex items-center gap-2 font-medium">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-primary text-primary-foreground">
-                  <img className='rounded-sm' src='/pakua_logo.jpg' width={512} height={512} />
-                </div>
-                <div>
-                  <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight'>Pakua.</h3>
-                  <p className="text-xs text-muted-foreground">Supplier Portal</p>
+                <div className="flex h-12 w-48">
+                  <img src='/pakua_logo.svg' />
                 </div>
               </a>
             </div>
